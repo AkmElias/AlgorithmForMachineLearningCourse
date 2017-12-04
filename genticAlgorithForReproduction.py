@@ -23,7 +23,7 @@ for i in range(len(populations)):
         mxbit = cnt
 print("bit will rmain same upto ",mxbit)  
 #main algo start...
-#we will need these list later..
+#we will need these lists later..
 listToCross = []
 listToCross2 = []
 #homany time the expected generation found..
@@ -31,7 +31,7 @@ maincount = 0
 #threshold_value assigninig or assuming..let assume 2 for this problem
 thv = 2
 flag=0
-#fitness function..we will do this by comparing eith expected outecome to all the population given
+#fitness function..we will do this by comparing with expected outecome to all the population given
 value = []
 j = 0
 for i in range(len(populations)):
